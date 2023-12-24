@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Training Page First</title>
+        
+    </head>
+    <body>
+        <style>
+            p{
+                color: rgb(65, 8, 8);
+           
+            }
+        </style>
+        <h1>
+            <strong>I have three pencils</strong>
+        </h1>
+        <img src="pencils.png" alt="Pencils image">
+        <p>
+            <ul>
+                <li>Green pencil</li>
+                <img src="green-pencil.png" alt="Green pencil image">
+                <li>Pink pencil</li>
+                <img src="pink-pencil.png" alt="Pink pencil image">
+                <li>Blue pencil</li>
+                <img src="blue-pencil.png" alt="Blue pencil image">
+            </ul>
+        </p>
+    </body>
+    <footer>
+
+    </footer>
+</html>
