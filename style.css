@@ -17,12 +17,17 @@ img{
     width: 4%;
     height: 1%;
 }
-.centering{
+.centering {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
+/*    margin-left: auto;
+    margin-right: auto;*/
+    margin: auto;
+    width: 4%;
 }
+/*.centering img{
+    margin: auto;
+    display: block;
+}*/
 #lead-id, #section1-id, #section2-id{
     color: rgb(65, 8, 8);
 }  
