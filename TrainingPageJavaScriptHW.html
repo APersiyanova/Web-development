@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>It's a training web-page, where I study JavaScript</p>
+    <script language="JavaScript">
+        // alert("Helo, everybody!");
+    </script>
+    <p>How nice that we've met each other!</p>
+    <script>
+        // Вывести имя пользователя с помощью функции
+            let yourName = prompt("What's your name?", "Ezekiel");
+            function NameOutput(yourName) {
+                alert(`Hi, ${yourName}!`);
+            }
+            NameOutput(yourName);
+
+            
+            let right = confirm(`Do you work, ${yourName}?`);
+            if (right == true) {
+                averageSalary = 100000;
+                let yourSalary = prompt("What's your salary?", averageSalary);
+                if (yourSalary == averageSalary) {
+                    alert("Your salary is average");
+                }
+                else {
+                    let compare = yourSalary > 100000;
+
+                    if (compare == true) {
+                        alert("Your salary is higher then average!");
+                    }
+                    else {
+                        alert("Your salary is still less then average.");
+                    }
+                }
+            }
+            else {alert("You don't work? I'm jealous of you");
+            }
+    </script>
+</body>
+</html>
